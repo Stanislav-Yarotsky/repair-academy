@@ -1,4 +1,4 @@
 function Hero() {
-  return "";
+  return <></>;
 }
 export default Hero;

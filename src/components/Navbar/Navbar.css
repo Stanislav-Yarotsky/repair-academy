@@ -47,15 +47,3 @@
     font-weight: 500;
     font-size: var(--font-base);
   }
-  
-  .navbar-button {
-    background-color: var(--color-orange);
-    color: var(--color-white);
-    border: none;
-    padding: .86rem 1.86rem;
-    border-radius: 1.39rem;
-    font-size: var(--font-base);
-    font-weight: 500;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }

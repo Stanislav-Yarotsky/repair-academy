@@ -1,4 +1,6 @@
 import "./Navbar.css";
+import Button from "../Button/Button";
+
 function Navbar() {
   return (
     <nav className="navbar">
@@ -17,7 +19,9 @@ function Navbar() {
           <a href="#contacts">КОНТАКТЫ</a>
         </li>
       </ul>
-      <button className="navbar-button">ЗАПОЛНИТЬ ЗАЯВКУ</button>
+      <Button variant="white" border="true" arrow="true">
+        Заполнить заявку
+      </Button>
     </nav>
   );
 }

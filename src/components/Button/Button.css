@@ -1,0 +1,66 @@
+.button {
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    border: none;
+    padding: 0.86rem 1.86rem;
+    border-radius: 1.39rem;
+    font-size: var(--font-base);
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease;    
+  }
+  
+  .button--default {
+    background-color: var(--color-orange);
+    color: var(--color-white);
+  }
+  
+  .button--white {
+    background-color: var(--color-white);
+    color: var(--color-dark);
+  }
+  
+  .button--white:hover {
+    background-color: #f1f1f1;
+  }
+  .button--border{
+    border: 1px solid var(--color-orange);
+  }
+  .button--transparent {
+    background-color: transparent;
+    color: #007bff;
+    border: 1px solid #007bff;
+  }
+  
+  .button--transparent:hover {
+    background-color: rgba(0, 123, 255, 0.1);
+  }
+  
+  .button__arrow {
+    margin-left: 0.55rem;
+    font-size: 1rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    line-height: 1;
+    transition: transform 0.3s ease;
+    position: relative;
+  }
+  .button__arrow::after{
+        content: '';
+        display: inline-block;
+        background-image: url('./images/arr.svg');
+        width: 0.88rem;
+    height: 0.66rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .button:hover .button__arrow {
+    transform: translateX(0.27rem); 
+  }
+  
