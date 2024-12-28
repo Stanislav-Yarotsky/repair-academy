@@ -27,8 +27,6 @@
     color: var(--color-dark);
     max-width: min-content;
   }
-  
-  /* Ссылки */
   .navbar-links {
     list-style: none;
     display: flex;
